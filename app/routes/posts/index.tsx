@@ -22,8 +22,9 @@ export default function Posts() {
   const { posts } = useLoaderData() as LoaderData;
 
   return (
-    <main>
+    <main style={{ margin: "30px" }}>
       <h1>Posts</h1>
+      <div style={{ paddingBottom: "24px" }} />
       <Link to="admin" className="text-red-600 underline">
         Admin
       </Link>
